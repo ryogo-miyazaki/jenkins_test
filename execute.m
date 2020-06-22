@@ -6,6 +6,8 @@ test_output_ex1_false
 mdl = 'test_model';
 open_system(mdl);
 
+
+
 % set configuration parameters
 set_param(mdl, 'SolverName', 'FixedStepDiscrete');
 set_param(mdl, 'FixedStep', num2str(0.01));
